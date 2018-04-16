@@ -1,0 +1,23 @@
+.text{
+	border-radius: 10px;
+	display:inline-block;
+	margin: 2px 0;
+}
+.text.a{
+	background-color:#aaa;
+	line-height:15px;
+}
+.text.b{
+	background-color:#ccc;
+	line-height:10px;
+}
+
+.text.sm{
+	width:20px;
+}
+.text.md{
+	width:40px;
+}
+.text.lg{
+	width:80px;
+}
