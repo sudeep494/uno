@@ -5,6 +5,10 @@
 /tmp
 /out-tsc
 
+# electron distributions
+/uno-darwin-x64
+/uno-win32-x64
+
 # dependencies
 /node_modules
 
