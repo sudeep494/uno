@@ -10,9 +10,9 @@ export class AppComponent {
 	constructor(private el: ElementRef, private renderer: Renderer) {
 	}
 	onMenuClick() {
-		// if (window.innerWidth <992){
-		// 	this.el.nativeElement.querySelector('.navbar-toggler')[0].click();
-		// }
+		if (window.innerWidth <992){
+			this.el.nativeElement.querySelector('.navbar-toggler')[0].click();
+		}
 	}
 
 	title = 'app';
