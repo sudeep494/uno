@@ -1,6 +1,4 @@
-import { Component, ElementRef, Renderer } from '@angular/core';
-
-declare var window: any;
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-root',
@@ -8,9 +6,7 @@ declare var window: any;
 	styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-	constructor(private el: ElementRef, private renderer: Renderer) {
-	}
-	
+
 	isCollapsed = true;
 
 }
