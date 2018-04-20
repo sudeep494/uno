@@ -9,6 +9,9 @@
 /uno-darwin-x64
 /uno-win32-x64
 
+# cordova
+/platforms/
+
 # dependencies
 /node_modules
 
