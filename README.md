@@ -1,5 +1,5 @@
 # Hybrid HTML5 App
-This project provides basic HTML5 app code written using Angular and Bootstrap4 with build and configuration setup for web, mobile and desktop deploys with the help of Cordova and Electron. This project uses Angular but it can be replaced with any frontend framework of choice such as Vue or React
+This project provides basic HTML5 app code written using Angular and Bootstrap with build & configuration setup for web, mobile and desktop deploys using Cordova and Electron. This project uses Angular but it can be replaced with any frontend framework of choice such as Vue or React
 
 ## dev setup
 1. clone this project
@@ -16,7 +16,6 @@ This project provides basic HTML5 app code written using Angular and Bootstrap4 
 
 
 ## mobile deploys (android)
-- cordova should already be installed if you ran `npm install` earlier
 - download and install either Android SDK or Android Development Studio (recommended)
 - set your ANDROID_HOME path to the Android SDK
 - signup for Google Play Developer Account (optional if not deploying to google play store)
@@ -31,7 +30,6 @@ https://haensel.pro/apache-cordova/cordova-create-a-signed-release-apk-easy-howt
 - wait for approval from Google
 
 ## mobile deploys (ios)
-- cordova should already be installed if you ran `npm install` earlier
 - download and install X-Code
 - signup for AppleID (paid account if you wish to publish to App Store)
 - run `cordova add platform ios`
@@ -42,8 +40,7 @@ https://haensel.pro/apache-cordova/cordova-create-a-signed-release-apk-easy-howt
 - check back later for instructions on publishing to app store
 
 ## desktop deploys (mac & windows)
-- electron should already be installed if you ran `npm install` earlier
-- make sure the 'main' attribute in package.json points to main.js
+- electron and electron-packager should already be installed if you ran `npm install` earlier
 - run `npm run electron-build`
 - for windows app, run `electron-packager . --overwrite --platform=win32 --icon=src/assets/win-logo.ico --out=electron-builds`
 - for mac app, run `electron-packager . --overwrite --platform=darwin --icon=src/assets/mac-logo.icns --out=electron-builds`
