@@ -6,6 +6,7 @@
 /out-tsc
 
 # electron distributions
+/electron-builds/
 /uno-darwin-x64
 /uno-win32-x64
 
